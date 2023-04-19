@@ -1,0 +1,83 @@
+.fixed-container {
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    padding: 10px 10px;
+}
+
+.box-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input {
+    border: 3px solid #87d2d2;
+    width: 285px;
+    height: 25px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.button {
+    border: 0;
+    background: #87d2d2;
+    width: 100px;
+    height: 31px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.box-window {
+    border: 3px solid #87d2d2;
+    height: 300px;
+    padding: 8px;
+    overflow-y: auto;
+}
+
+.box-window-message {
+    height: inherit;
+}
+
+.blockDiv {
+    width: 100%;
+    height: 20px;
+}
+
+.clientMessage,
+.serverMessage {
+    border: 3px solid #87d2d2;
+    border-radius: 8px;
+    max-width: 200px;
+    min-height: 20px;
+    padding: 5px 10px;
+    margin: 5px; 
+    word-break: break-all;
+}
+
+.blockClient {
+    display: flex;
+    justify-content: start;
+}
+
+.blockServer {
+    display: flex;
+    justify-content: end;
+}
+
+.link-geo {
+    font-size: 16px;
+    color: #87d2d2;
+    font-weight: 600;
+}
+
+
+
